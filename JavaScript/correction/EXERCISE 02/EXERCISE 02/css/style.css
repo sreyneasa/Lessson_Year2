@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    font-weight: bold;
+}
+tr,th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+thead {
+    background: #928b8b;
+    color: #1c1a1a;
+}
+tbody{
+    color: #000;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding: 5px 10px;
+    background: green;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+
+}
+button:hover{
+    background: #000;
+    color: #fff;
+}
