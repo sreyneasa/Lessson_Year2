@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var employee_1 = require("./employee");
+var deparment_1 = require("./deparment");
+var company_1 = require("./company");
+var chanthou = new employee_1.employee(1000, "Chanthou", 19);
+var employee1 = new employee_1.employee(200, "Rin", 29);
+var employee2 = new employee_1.employee(200, "Cha", 24);
+var development = new deparment_1.department("IT department");
+development.addmanager(chanthou);
+development.addEmployee(employee1);
+development.addEmployee(employee2);
+console.log(development);
+var technical = new company_1.company(" technical");
+technical.addDepartment(development);
+console.log(technical);
